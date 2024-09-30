@@ -1,0 +1,29 @@
+table
+{
+    width: 100%;
+    border: none;
+}
+table tr td
+{
+    vertical-align: top;
+    width: 100px;
+}
+table tr td table tr td table tr td :not(.Back_ground)
+{
+    border: 0;
+}
+.Back_ground
+{
+    background-color: rgb(33, 107, 204);
+}
+td, tr
+{
+    border: 1px solid black
+}
+.profile_image {
+    width: 90px;
+}
+.right
+{
+    float: right;
+}
